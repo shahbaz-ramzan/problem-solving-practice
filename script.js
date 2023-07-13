@@ -253,3 +253,78 @@
 // }
 // console.log(arrReduce(arr));
 
+// Find: Write a function that takes an array of numbers and returns the first number greater than 1.
+// Example Input: [1, 2, 3]
+// Expected Output: 2
+
+// let arr = [1, 2, 3, 4];
+
+// function greater(arr) {
+//   return arr.find((item) => {
+//     return item > 1;
+//   });
+// }
+
+// console.log(greater(arr));
+
+// Reduce: Write a function that takes an array of numbers and returns the product of all the numbers.
+// Example Input: [1, 2, 3]
+// Expected Output: 6
+
+// let arr = [1, 2, 3, 4, 5];
+
+// function findProduct(arr) {
+//   return arr.reduce((num, item) => num * item);
+// }
+
+// console.log(findProduct(arr));
+
+// FindIndex: Write a function that takes an array of numbers and returns the index of the first number greater than 1.
+// Example Input: [1, 2, 3]
+// Expected Output: 1
+
+// let arr = [1, 0, 1, 4, 5];
+
+// function findIndex(arr) {
+//   return arr.findIndex((arr) => {
+//     return arr > 1;
+//   });
+// }
+
+// console.log(findIndex(arr));
+
+// Reduce: Write a function that takes an array of numbers and returns the maximum number.
+// Example Input: [1, 2, 3]
+// Expected Output: 3
+// Solve with reduce
+
+// let arr = [1, 2, 3];
+
+// function findMax(arr) {
+//   return arr.reduce((num, item) => {
+//     return num > item;
+//   });
+// }
+
+// console.log(findMax(arr));
+
+// 10 FindIndex: Write a function that takes an array of numbers and returns the index of the maximum number.
+// Example Input: [1, 2, 3]
+// Expected Output: 2
+
+// let arr = [1, 5, 3, 4];
+
+// function findIndex(arr) {
+//   let array = arr.sort((a, b) => a - b);
+//   let max = array[array.length - 1];
+//   return arr.findIndex(array);
+// }
+// console.log(findIndex())
+
+// Filter: Write a function that takes an array of numbers and returns a new array with only the odd numbers.
+// Example Input: [1, 2, 3, 4]
+// Expected Output: [1, 3]
+
+let arr = [1, 2, 3, 4];
+
+function findOdd(arr) {}
