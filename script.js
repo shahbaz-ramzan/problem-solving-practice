@@ -325,6 +325,85 @@
 // Example Input: [1, 2, 3, 4]
 // Expected Output: [1, 3]
 
-let arr = [1, 2, 3, 4];
+// let arr = [1, 2, 3, 4];
 
-function findOdd(arr) {}
+// function findOdd(arr) {
+//   return arr.filter((item) => {
+//     return item % 2 == 1;
+//   });
+// }
+
+// console.log(findOdd(arr));
+
+// Filter: Write a function that takes an array of numbers and returns a new array with only the even numbers.
+// Example Input: [1, 2, 3, 4]
+// Expected Output: [2, 4]
+
+// let arr = [1, 2, 3, 4];
+
+// function findEven(arr) {
+//   return arr.filter((item) => {
+//     return item % 2 == 0;
+//   });
+// }
+
+// console.log(findEven(arr));
+
+// Map: Write a function that takes an array of numbers and returns a new array with the numbers doubled.
+// Example Input: [1, 2, 3]
+// Expected Output: [2, 4, 6]
+
+// let arr = [1, 2, 3, 4];
+
+// function makeDouble(arr) {
+//   return arr.map((item) => {
+//     return item + item;
+//   });
+// }
+
+// console.log(makeDouble(arr));
+
+// Map: Write a function that takes an array of numbers and returns a new array with the numbers squared.
+// Example Input: [1, 2, 3]
+// Expected Output: [1, 4, 9]
+
+// let arr = [1, 2, 3];
+
+// function makeMultiple(arr) {
+//   return arr.map((item) => {
+//     return item * item;
+//   });
+// }
+
+// console.log(makeMultiple(arr));
+
+// Reverse: Write a function that takes an array and returns a new array with the elements reversed.
+// Example Input: [1, 2, 3]
+// Expected Output: [3, 2, 1]
+
+// let arr = [1, 2, 3];
+
+// function reversed(arr) {
+//   return arr.reverse();
+// }
+
+// console.log(reversed(arr));
+
+// Concat: Write a function that takes two arrays and returns a new array that contains all the elements from both arrays.
+// Example Input: [1, 2], [3, 4]
+// Expected Output: [1, 2, 3, 4]
+
+// let arr = [1, 2];
+// let arr2 = [3, 4];
+
+// function concate(arr) {
+//   return arr.concat(arr2);
+// }
+
+// console.log(concate(arr));
+
+// Find: Write a function that takes an array of objects and returns the first object that has a 'name' property equal to 'John'.
+// Example Input: [{name: 'Alice'}, {name: 'John'}, {name: 'Bob'}]
+// Expected Output: {name: 'John'}
+
+
