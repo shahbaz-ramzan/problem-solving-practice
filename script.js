@@ -133,3 +133,123 @@
 
 // let result = arr.sort((a, b) => b - a);
 // console.log(result);
+
+//Q 9:  Reverse a given string
+
+// let str = "Hello man how are you";
+
+// let arr = str.split(" ");
+// console.log(arr);
+
+// let result = arr.reverse();
+// console.log(result);
+// let string = result.join(" ");
+// console.log(string);
+
+// function f(a, b, c) {
+//   m = ["1", "2", "3"];
+//   a = 3;
+//   b[0] = "x";
+//   c.first = false;
+// }
+
+// var x = 4;
+// var y = ["A", "B", "C"];
+// var z = { first: true };
+// f(x, y, z);
+// console.log(x, y, z);
+
+// (function () {
+//   console.log(1);
+//   setTimeout(() => {
+//     console.log(2);
+//   }, 2000);
+//   setTimeout(() => {
+//     console.log(3);
+//   }, 0);
+//   console.log(4);
+// })();
+
+// Q1:1. Reverse: Write a function that takes an array and returns a new array with the elements reversed.
+// Example Input: [1, 2, 3]
+// Expected Output: [3, 2, 1]
+
+// let arr = [1, 2, 3];
+
+// function reversed(arr) {
+//   let arr2 = arr.reverse();
+//   return arr2;
+// }
+
+// let output = reversed(arr);
+// console.log(output);
+
+// Q2:Map: Write a function that takes an array of numbers and returns a new array with the numbers squared.
+// Example Input: [1, 2, 3]
+// Expected Output: [1, 4, 9]
+
+// let arr = [1, 2, 3];
+
+// function squared(arr) {
+//   return arr.map((item) => item * item);
+// }
+// console.log(squared(arr));
+
+// Filter: Write a function that takes an array of numbers and returns a new array with only the numbers greater than 0.
+// Example Input: [1, 2, 3, -1, -2, -3]
+// Expected Output: [1, 2, 3]
+
+// let arr = [1, 2, 3, -1, -2, -3];
+
+// function greater(arr) {
+//   return arr.filter((arr) => {
+//     return arr < 0;
+//   });
+// }
+
+// console.log(arr);
+
+// let arr = [1, 2, 3, -1, -2, -3];
+
+// function findGreater(arr) {
+//   return arr.filter((e) => {
+//     return e > 0;
+//   });
+// }
+
+// console.log(findGreater(arr));
+
+// Map and Filter: Write a function that takes an array of numbers and returns a new array with only the even numbers squared.
+// Example Input: [1, 2, 3, 4, 5, 6]
+// Expected Output: [4, 16, 36]
+
+// let arr = [1, 2, 3, 4, 5, 6];
+
+// function findEven(arr) {
+//   let even = arr.filter((e) => {
+//     return e % 2 == 0;
+//   });
+//   return even.map((e) => e * e);
+// }
+
+// console.log(findEven(arr));
+
+// Reduce: Write a function that takes an array of numbers and returns the sum of all the numbers.
+// Example Input: [1, 2, 3]
+// Expected Output: 6
+
+// let arr = [1, 2, 3];
+
+// function findMultiple(arr) {
+//   return arr.reduce(e * e);
+// }
+
+// console.log(findMultiple(arr));
+
+// let arr = [1, 2, 3, 4, 5];
+
+// function arrReduce(arr) {
+//   return arr.reduce((sum, num) => sum * num);
+// }
+// console.log(arrReduce(arr));
+
