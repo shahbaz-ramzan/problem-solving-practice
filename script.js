@@ -406,4 +406,66 @@
 // Example Input: [{name: 'Alice'}, {name: 'John'}, {name: 'Bob'}]
 // Expected Output: {name: 'John'}
 
+// Sort: Write a function that takes an array of numbers and returns a new array with the numbers sorted in ascending order.
+// Example Input: [3, 1, 4, 2]
+// Expected Output: [1, 2, 3, 4]
 
+// let arr = [3, 1, 4, 2];
+
+// function findSorted(arr) {
+//   return arr.sort((a, b) => a - b);
+// }
+
+// console.log(findSorted(arr));
+
+// Join: Write a function that takes an array of strings and returns a new string that is the concatenation of all the strings with a comma separator.
+// Example Input: ['a', 'b', 'c']
+// Expected Output: 'a,b,c'
+
+// let arr = ["a", "b", "c"];
+
+// function concatenation(arr) {
+//   return arr.join(",");
+// }
+// console.log(concatenation(arr));
+
+// function printFunction(name) {
+//   console.log("Hello " + name);
+// }
+
+// function outerFunction(callback) {
+//   let name = "shahbaz";
+//   callback(name);
+// }
+
+// outerFunction(printFunction);
+
+// Q callback with asyn and sync
+
+// function processData(data) {
+//   console.log("process data:", data);
+// }
+
+// function fetchData(callback) {
+//   setTimeout(() => {
+//     const data = { id: 1, name: "shahbaz" };
+//     callback(data);
+//   }, 2000);
+// }
+
+// fetchData(processData);
+
+// function recurse(number) {
+//   console.log(number);
+//   const newnumber = number - 1;
+//   if (newnumber > 0) {
+//     recurse(newnumber);
+//   }
+// }
+// recurse(5);
+
+// foo();
+
+// var foo = function () {
+//   console.log("hello world");
+// };
